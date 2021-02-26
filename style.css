@@ -1,0 +1,119 @@
+*,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+ }
+
+ body {
+     background-image: url(imagens/background.jpg);
+     font-family: sans-serif;
+     margin: 0;
+     padding: 150px;
+ }
+
+ .container {
+     max-width: 700px;
+     margin: 0 auto;
+     border-radius: 15px;
+     padding: 10px;
+
+ }
+
+ h2 {
+     text-transform: uppercase;
+     margin: 10px 0;
+     padding: 0;
+     text-align: center;
+
+ }
+ input[type="number"],
+ input[type="date"],
+ input[type="text"],
+ input[type="password"] {
+     width: 50%;
+     padding: 10px;
+     font-size: 16px;
+     margin: 3px 0;
+     border: 1px solid #ccc;
+     border-radius: 7px;
+     align-items: center;
+ }
+
+ input[type="submit"] {
+     margin-top: 5px;
+     padding: 6px 12px;
+     font-size: 16px;
+     cursor: pointer;
+     
+     color: #FFF;
+     outline: none;
+     border: 1px solid rgba(0, 0, 0, .1);
+     border-radius: 15px;
+     background-color: #081b56;
+     
+
+ }
+
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ td,
+ th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+     color: #333;
+ }
+
+ tr:nth-child(even) {
+     background-color: #f6f7f9;
+ }
+
+ a,
+ a:visited {
+     color: #0077c8;
+     text-decoration: none;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     color: red;
+ }
+ .text{
+    font-size: 25px;
+    background-color: #081b56;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .container{
+     background: #FFF;
+ }
+ #imagem{
+     width: 150px;
+     float: right;
+     margin-right: 90px;
+     margin-top: 30px;
+    
+ }
+ #esqueciasenha{
+     margin-left: 5px;
+     margin-top: auto;
+     padding-top: 10px;
+ }
+ #cadastro{
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer; 
+    color: #FFF;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    background-color: #081b56;
+ }
+ 
