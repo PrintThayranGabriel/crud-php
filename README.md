@@ -4,6 +4,17 @@
 
 ![Screenshot](imagens/unknown.png)
 
+# Funcionalidades
+
+Fiz esse projeto para um trabalho do curso, que consiste em um sistema
+que faça um -> CRUD é o acrônimo da expressão do idioma Inglês, Create (Criação), Read (Consulta), Update (Atualização) e Delete (Destruição)
+
+- [ ]  Criar usuários;
+- [ ]  Cadastrar usuários;
+- [ ]  Resetar a senha "esqueci a senha";
+- [ ]  excluir usuários
+
+
 
 <h2 align="center"> 🛠 Tecnologias </h2> 
 
